@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="2019-01-21T20:51:31"/>
+	<meta name="changed" content="2020-04-17T13:43:51.490180561"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; direction: ltr; color: #00000a; line-height: 120%; text-align: left; orphans: 2; widows: 2 }
+		p.western { font-family: "Liberation Serif", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt; so-language: zh-CN }
+		p.ctl { font-family: "FreeSans"; font-size: 12pt; so-language: hi-IN }
+	</style>
+</head>
+<body lang="en-US" text="#00000a" dir="ltr">
+<p class="western" align="center" style="margin-bottom: 0in; line-height: 100%">
+    <font face="Bitstream Vera Sans, serif"><font size="6" style="font-size: 22pt">Project
+</font></font><font face="Bitstream Vera Sans, serif"><font size="6" style="font-size: 22pt">6</font></font><font face="Bitstream Vera Sans, serif"><font size="6" style="font-size: 22pt">
+- </font></font><font face="Bitstream Vera Sans, serif"><font size="6" style="font-size: 22pt">Optimization
+in TensorFlow</font></font><font face="Bitstream Vera Sans, serif"> </font>
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif">Total
+pts.: 50</font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif">Due:
+April </font><font face="Bitstream Vera Sans, serif">23</font><font face="Bitstream Vera Sans, serif">,
+2019</font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><b>Introduction:</b></font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif">The
+purpose of this project is to give you experience using </font><font face="Bitstream Vera Sans, serif">optimization
+using TensorFlow.</font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><b>Description:</b></font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+<font face="Bitstream Vera Sans, serif">This assignment is based on
+the Jupyter notebook &quot;Project_6.ipynb&quot;.  You can download
+this from Canvas.</font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">This
+notebook uses </span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">
+a Jupyter Notebook to solve the following problem:</span></font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<font face="Bitstream Vera Sans, serif">find solutions for the
+coordinates of groups of N points that satisfy the following
+criterion:</font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<font face="Bitstream Vera Sans, serif">1) the points are on the unit
+circle (/sphere if 3 or higher dimensions),</font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<font face="Bitstream Vera Sans, serif">2) the points are as far away
+from each other as possible.</font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<font face="Bitstream Vera Sans, serif">You should review the
+notebook and accompanying lecture carefully.</font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">After
+that</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">:</span></font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">1)
+extend the problem</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">
+by</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">
+modify</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">ing</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">
+the loss function so that one of the solution points is always as
+close as possible to (0,-1) in 2-D, or (0,0,-1) in 3-D.</span></font></p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">2)
+ </span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">see
+if you can generate all 5 platonic solids. (experiment with different
+TF optimizers and learning rates)</span></font><font face="Bitstream Vera Sans, serif"><span style="font-style: normal">
+ NOTE: You don't have to generate them, but try to and discuss your
+approach.</span></font></p>
+<p class="western" style="margin-bottom: 0in; font-style: normal; line-height: 100%">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<font color="#000000"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt"><b>Writing
+a Brief Report:</b></font></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<font color="#000000"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt">You
+will write a report that describes the insights that you gained from
+completing the assignment, what you did, how good the performance
+was, and any conclusions you could draw overall.</font></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; line-height: 120%; background: #ffffff">
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt"><span style="font-style: normal"><span style="font-weight: normal">The
+report should include whatever figures you think are appropriate</span></span></font></font></span></font></span><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt"><span style="font-style: normal"><span style="font-weight: normal">.</span></span></font></font></span></font></span></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<font color="#000000"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt"><b>Deliverables:</b></font></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<font color="#000000"><font face="Bitstream Vera Sans, serif"><font size="3" style="font-size: 12pt">You
+will turn in both the report (in pdf format) and the Jupyter Notebook
+code on Canvas.</font></font></font></p>
+<p class="western" align="left" style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 120%; background: #ffffff; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><a name="docs-internal-guid-12dec8aa-7fff-63bb-7bb0-238ef5147eb1"></a>
+<br/>
+
+</p>
+<p class="western" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+</body>
+</html>
