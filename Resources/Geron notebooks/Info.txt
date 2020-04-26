@@ -1,0 +1,2 @@
+These notebooks accompany the "hands on machine learning with 
+keras scikit learn and tensorflow 2n'd edition" textbook by Geron.
